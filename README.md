@@ -87,7 +87,7 @@ Database integration]
 3. [Griselda Rexhmati] - [Data modeling and schema design to ensure efficient data storage
 Backend & frontend development
 User feedback used for bug fixes, usability improvements, feature enhancements]
-  ##  Phase II: User Requirements and Application Specifications
+ ##  Phase II: User Requirements and Application Specifications
  
 -** 1. Chosen Development Model: **
 [·       Development Model: Agile
@@ -127,12 +127,12 @@ Marketing/Sales Team:
 The marketing and sales team is responsible for attracting users and clients to the freelancing website. They develop marketing strategies, run advertising campaigns, and engage with potential users through various channels. Their efforts contribute to user acquisition, retention, and revenue generation.]
  
 ## b. User Stories:
-[Present a few detailed user stories: Include the user type (e.g., administrator, end-user). Clearly outline the corresponding requirement and the benefit it brings to the user or project.]
-[·   	User Story for a Freelancer:
+[Present a few detailed user stories: Include the user type (e.g., administrator, end-user). Clearly outline the corresponding requirement and the benefit it brings to the user or project.
+·   	User Story for a Freelancer:
 Title: Submit Proposal for a Project
 As a Freelancer, I want to be able to submit a proposal for a project posted by a client, so that I can showcase my skills and expertise and potentially win the project.
-Acceptance Criteria:]
-[1.       Project Discovery:
+Acceptance Criteria:
+1.       Project Discovery:
 I can browse through available jobs listed on the platform and filter them based on criteria such as category, budget, and skills required.
 2.       Proposal Submission:
 For jobs that match my skills and interests, I can submit a proposal detailing my qualifications to the job, relevant experience, and any additional information requested by the client.
@@ -145,8 +145,8 @@ If the client responds to my proposal or takes any action related to the project
 ·   	User Story for a Client:
 Title: Review Freelancer Proposals and Hire
 As a Client, I want to be able to review proposals submitted by freelancers for my project, so that I can assess their suitability and hire the most qualified candidate.
-Acceptance Criteria:]
-[1.       Proposal Overview:
+Acceptance Criteria:
+1.       Proposal Overview:
 I can view a summary of all proposals received for the job I offered.
 2.       Detailed Proposal View:
 I can click on individual proposals to view detailed information, including the freelancer's profile, proposal message, and attached portfolio samples or relevant files.
@@ -156,11 +156,11 @@ From within the proposal view, I have the option to communicate with the freelan
 After reviewing all proposals and conducting any necessary discussions with freelancers, I can select and hire the most suitable candidate for the project.
 5.       Notification:
 Once I hire a freelancer, both the freelancer and I receive a notification confirming the hiring decision and providing details about the next steps in the project collaboration.
-·   	User Story for admin:]
-[Title: Review Freelancer Profiles and Ensure Platform Security
+·   	User Story for admin:
+Title: Review Freelancer Profiles and Ensure Platform Security
 As an Administrator, I want to be able to review freelancer profiles and ensure platform security, so that I can maintain a high standard of quality, trust, and safety for all users.
-Acceptance Criteria:]
-[1.       Profile Verification:
+Acceptance Criteria:
+1.       Profile Verification:
 I have access to a verification system where I can review and verify freelancer profiles for authenticity, accuracy, and compliance with platform policies. Verification checks may include validating identity documents, verifying professional credentials, and confirming previous work experience.
 2.       Security Checks:
 I conduct thorough security checks on freelancer profiles to identify any red flags or suspicious activities, such as fraudulent behavior, spamming, or violations of platform terms of service. Suspicious profiles are flagged for further investigation and potential enforcement actions, such as temporary suspension or permanent banning from the platform.
@@ -197,8 +197,8 @@ Personal data handling practices comply with relevant regulations.]
  
 ## 4. Non-Functional Requirements:
 [a. Brief Description:
-Describe how well your whole system should work. Is it about being fast, easy to use, or something else? Use simple words to explain each idea.]
-[1.       Performance:
+Describe how well your whole system should work. Is it about being fast, easy to use, or something else? Use simple words to explain each idea.
+1.       Performance:
 -The system should respond quickly to user actions and requests, ensuring fast loading times and minimal latency.
 -It should be capable of handling a large number of concurrent users without experiencing performance degradation.
    	2. 	Usability:
@@ -209,8 +209,8 @@ Describe how well your whole system should work. Is it about being fast, easy to
 -It should be resilient to failures and capable of recovering gracefully from errors or system crashes.
   	4.	Scalability:
 -The system should be able to scale seamlessly to accommodate increasing user loads and growing data volumes.
-  	5. 	Security:]
-[-The system should enforce robust security measures to protect user data, prevent unauthorized access, and mitigate security threats.
+  	5. 	Security:
+-The system should enforce robust security measures to protect user data, prevent unauthorized access, and mitigate security threats.
 -It should adhere to industry best practices and regulatory requirements for data protection and privacy.
   	6. 	Compatibility:
 -The system should be compatible with a wide range of devices, browsers, and operating systems to ensure accessibility for all users.
@@ -220,9 +220,9 @@ Describe how well your whole system should work. Is it about being fast, easy to
 -It should support version control and automated testing to facilitate continuous integration and deployment practices.
     	8.  	Accessibility:
 -The system should be accessible to users with disabilities, complying with accessibility standards such as WCAG (Web Content Accessibility Guidelines).
-b. Acceptance Criteria:]
-[For each idea, set a goal. If it's about speed, say exactly how fast it should be. If it's about being easy to use, describe what makes it easy. These are like rules to make sure your whole system is great.]
-[1.       Performance:
+b. Acceptance Criteria:
+For each idea, set a goal. If it's about speed, say exactly how fast it should be. If it's about being easy to use, describe what makes it easy. These are like rules to make sure your whole system is great.
+1.       Performance:
 Goal: The system should load pages and respond to user interactions within 2 seconds or less under normal load conditions.
 Criteria: Page load times and response times are measured using performance monitoring tools and meet the specified threshold consistently.
 2.       Usability:
@@ -252,72 +252,73 @@ Criteria: Accessibility audits and manual testing verify adherence to WCAG guide
  
 ## 5. Application Specifications:
 [a. Architecture:
+
 It will be a web were it will have user side which can register also as freelancers and admin server side where it will manage the freelancers]
 ## b. Database Model:
 [Detail the database model:
 Include information on tables, relationships, constraints, and any other relevant details.
-Contractor table]
-   [  i.       Attributes:]
-[-        id: Primary Key, unique identifier for each contractor.]
-[-        name: Name of the contractor.]
-[-        price: Price or rate of the contractor's service.]
-[-        email: Email address of the contractor.]
-[-        phone: Phone number of the contractor.]
-[-        service: Type of service provided by the contractor.]
-[-        property type: Type of property the contractor specializes in (e.g., residential, commercial).]
-[-        message: Additional message or description provided by the contractor.]
-       [ ii.            Constraints:
-Primary Key Constraint:]
-[-        id column serves as the primary key (PK) for the contractors table. It uniquely identifies each record.
-Not Null Constraint:]
-[-        Applied to columns name, price, email, phone, service, property_type, and message to ensure these fields must have values for each record.
-Auto-increment:]
-[-        id column is set to auto-increment so that each new record automatically gets a unique identifier without needing manual input.
-Data Type Constraints:]
-[-        Each column is assigned a specific data type suitable for the type of data it holds (e.g., VARCHAR for text, INT for integers).
-Unique Constraint (if applicable):]
-[-        No unique constraints are specified in our table
+Contractor table
+     i.       Attributes:
+-        id: Primary Key, unique identifier for each contractor.
+-        name: Name of the contractor.
+-        price: Price or rate of the contractor's service.
+-        email: Email address of the contractor.
+-        phone: Phone number of the contractor.
+-        service: Type of service provided by the contractor.
+-        property type: Type of property the contractor specializes in (e.g., residential, commercial).
+-        message: Additional message or description provided by the contractor.
+        ii.            Constraints:
+Primary Key Constraint:
+-        id column serves as the primary key (PK) for the contractors table. It uniquely identifies each record.
+Not Null Constraint:
+-        Applied to columns name, price, email, phone, service, property_type, and message to ensure these fields must have values for each record.
+Auto-increment:
+-        id column is set to auto-increment so that each new record automatically gets a unique identifier without needing manual input.
+Data Type Constraints:
+-        Each column is assigned a specific data type suitable for the type of data it holds (e.g., VARCHAR for text, INT for integers).
+Unique Constraint (if applicable):
+-        No unique constraints are specified in our table
 The admin page allows the admin user to view a list of contractors stored in the database. The displayed information includes the contractor's ID, name, price, email, phone, service, property type, and message. The admin can edit or delete individual contractor records using the provided links. While the code interacts with a database to display information on the admin page, there isn't a separate database specifically for admin-related data. The "myhome_db" database is the main database containing information about contractors, which the admin can access and manage through this interface.]
 
 ## c. Technologies Used:
-[·       PHP]
-[Scalability:
+## PHP
+1.Scalability:
 Efficient: PHP is designed to be lightweight and efficient, allowing for optimal resource management on the server-side. Applications can handle increasing loads without significant performance degradation.
 Scalable Architecture: PHP applications can be designed with scalability in mind, utilizing techniques such as load balancing, caching, and asynchronous processing to handle growing user bases and increasing traffic volumes.
 Modular Development: PHP supports modular development practices, enabling developers to break down large applications into smaller, manageable components. This modular approach facilitates scalability by allowing for easier distribution of workload and efficient scaling of individual components as needed.
-Compatibility:
+2. Compatibility:
 Cross-Platform Compatibility: PHP is platform-independent, meaning it can run on various operating systems including Windows, Linux, macOS, and others. 
 Database Compatibility: PHP offers broad compatibility with various database management systems (DBMS), including MySQL, PostgreSQL, SQLite, Oracle, and more. This compatibility allows developers to integrate PHP applications with different database systems based on project requirements and preferences.
 Web Server Compatibility: PHP is compatible with a wide range of web servers such as Apache, Nginx, Microsoft IIS, and others. This compatibility ensures that PHP-based web applications can be deployed on different web hosting environments with minimal configuration adjustments.
-Browser Compatibility: PHP can be used to generate browser-compatible markup and stylesheets, ensuring that web applications built with PHP are compatible with popular web browsers across different platforms.][
-[·   	HTML]
-[Scalability:]
-[-        Modular Structure: HTML promotes a modular structure for web pages, allowing developers to break down large pages into smaller, reusable components. This modular approach facilitates scalability by making it easier to manage and update individual components of the page without affecting the entire layout.]
-[-        Semantic Markup: HTML5 introduced new semantic elements (e.g., <header>, <nav>, <main>, <footer>) that provide meaningful structure to web pages. By using semantic markup, developers can create well-organized and easily scalable web pages that are optimized for search engines and accessibility.]
-[-        Responsive Design: HTML supports responsive design techniques that enable web pages to adapt to different screen sizes and resolutions. By using responsive design principles (e.g., fluid layouts, media queries), developers can create scalable web pages that provide a consistent user experience across desktops, tablets, and smartphones.]
-[Compatibility:]
-[-        Cross-Browser Compatibility: HTML is supported by all modern web browsers, ensuring compatibility across different browser platforms and versions. By adhering to HTML standards and best practices, developers can create web pages that render consistently across various browsers, minimizing compatibility issues.]
-[-        Accessibility: HTML provides built-in features for creating accessible web content, such as semantic markup, alt attributes for images, and aria roles and attributes for interactive elements. By following accessibility guidelines (e.g., WCAG), developers can ensure that web pages are compatible with assistive technologies and accessible to users with disabilities.]
-[-        Integration with Frontend Technologies: HTML integrates seamlessly with frontend technologies like CSS (Cascading Style Sheets) and JavaScript. By using CSS for styling and JavaScript for interactivity, developers can create visually appealing and feature-rich web applications that are compatible with modern web standards and practices.]
-[·       CSS]
-[Scalability:]
-[Modularization: CSS enables developers to organize stylesheets into modular components. By using methodologies like BEM (Block Element Modifier) or SMACSS (Scalable and Modular Architecture for CSS), developers can create maintainable and scalable CSS codebases. This modular approach facilitates scalability by allowing easy management and extension of styles as the project grows.]
-[-        Preprocessors and Postprocessors: CSS preprocessors like Sass, Less, and Stylus provide advanced features such as variables, mixins, and functions, enhancing the scalability of stylesheets. These tools enable developers to write more efficient and reusable CSS code, reducing duplication and improving maintainability as the project scales.]
-[-        Responsive Design: CSS plays a crucial role in implementing responsive design techniques, allowing web pages to adapt to different screen sizes and devices. By using media queries, flexible layouts, and fluid typography, developers can create scalable designs that provide a consistent user experience across desktops, tablets, and smartphones.]
-[Compatibility:]
-[-        Cross-Browser Compatibility: CSS ensures consistency in styling across different web browsers, ensuring compatibility with various browser platforms and versions. By following CSS standards and best practices, developers can create stylesheets that render consistently across browsers, minimizing compatibility issues.]
-[-        Vendor Prefixes: CSS vendor prefixes (e.g., -webkit-, -moz-, -ms-, -o-) are used to add experimental or browser-specific CSS properties to ensure compatibility with different browser engines. While the need for vendor prefixes has decreased with better browser support for CSS features, they are still used in certain cases to maintain compatibility with older browser versions.]
-[-        Progressive Enhancement: CSS supports progressive enhancement, an approach to web development that focuses on providing a basic user experience for all users while progressively enhancing it for users with modern browsers and devices. By using CSS feature detection and graceful degradation techniques, developers can ensure compatibility with a wide range of browsers and devices without sacrificing design or functionality.]
-[-        Accessibility: CSS plays a role in creating accessible web designs by allowing developers to control visual presentation and enhance readability. By using appropriate contrast ratios, font sizes, and spacing, developers can improve readability and ensure compatibility with assistive technologies for users with disabilities.]
-[·       Javascript]
-[Scalability:]
-[-        Client-Side: JavaScript enables the development of interactive and responsive user interfaces, facilitating a smooth user experience even as the complexity of the application grows.]
-[-        Server-Side: With the introduction of server-side JavaScript frameworks like Node.js, JavaScript can handle both client-side and server-side development. This allows for the creation of scalable, real-time, and high-performance web applications where JavaScript code can be shared between the client and server, reducing duplication and enhancing maintainability.]
-[-        Scalable Architecture: JavaScript supports scalable architectural patterns like microservices and event-driven architectures. Frameworks like Express.js for Node.js provide lightweight and flexible solutions for building scalable server-side applications, allowing for the modularization of code and easy scaling of individual components as needed.]
-[Compatibility:]
-[-        Cross-Browser Compatibility: JavaScript is supported by all modern web browsers, ensuring compatibility across different platforms and devices. JavaScript frameworks like jQuery, React.js, and Vue.js abstract away browser inconsistencies, allowing developers to write code that works consistently across browsers.]
-[-        Compatibility with Web Standards: JavaScript adheres to web standards defined by organizations like the W3C (World Wide Web Consortium). This ensures that JavaScript code follows best practices and is compatible with evolving web technologies, ensuring long-term compatibility and interoperability with other web technologies.]
-[-        Integration with Backend Technologies: APIs (Application Programming Interfaces) built with JavaScript (e.g., RESTful APIs) allow for communication between frontend and backend systems, promoting compatibility and consistency in data exchange.]
+Browser Compatibility: PHP can be used to generate browser-compatible markup and stylesheets, ensuring that web applications built with PHP are compatible with popular web browsers across different platforms.
+## 	HTML
+1. Scalability:
+-        Modular Structure: HTML promotes a modular structure for web pages, allowing developers to break down large pages into smaller, reusable components. This modular approach facilitates scalability by making it easier to manage and update individual components of the page without affecting the entire layout.
+-        Semantic Markup: HTML5 introduced new semantic elements (e.g., <header>, <nav>, <main>, <footer>) that provide meaningful structure to web pages. By using semantic markup, developers can create well-organized and easily scalable web pages that are optimized for search engines and accessibility.
+-        Responsive Design: HTML supports responsive design techniques that enable web pages to adapt to different screen sizes and resolutions. By using responsive design principles (e.g., fluid layouts, media queries), developers can create scalable web pages that provide a consistent user experience across desktops, tablets, and smartphones.
+2. Compatibility:
+-        Cross-Browser Compatibility: HTML is supported by all modern web browsers, ensuring compatibility across different browser platforms and versions. By adhering to HTML standards and best practices, developers can create web pages that render consistently across various browsers, minimizing compatibility issues.
+-        Accessibility: HTML provides built-in features for creating accessible web content, such as semantic markup, alt attributes for images, and aria roles and attributes for interactive elements. By following accessibility guidelines (e.g., WCAG), developers can ensure that web pages are compatible with assistive technologies and accessible to users with disabilities.
+-        Integration with Frontend Technologies: HTML integrates seamlessly with frontend technologies like CSS (Cascading Style Sheets) and JavaScript. By using CSS for styling and JavaScript for interactivity, developers can create visually appealing and feature-rich web applications that are compatible with modern web standards and practices.
+##  CSS
+1.Scalability:
+-        Modularization: CSS enables developers to organize stylesheets into modular components. By using methodologies like BEM (Block Element Modifier) or SMACSS (Scalable and Modular Architecture for CSS), developers can create maintainable and scalable CSS codebases. This modular approach facilitates scalability by allowing easy management and extension of styles as the project grows.
+-        Preprocessors and Postprocessors: CSS preprocessors like Sass, Less, and Stylus provide advanced features such as variables, mixins, and functions, enhancing the scalability of stylesheets. These tools enable developers to write more efficient and reusable CSS code, reducing duplication and improving maintainability as the project scales.
+-        Responsive Design: CSS plays a crucial role in implementing responsive design techniques, allowing web pages to adapt to different screen sizes and devices. By using media queries, flexible layouts, and fluid typography, developers can create scalable designs that provide a consistent user experience across desktops, tablets, and smartphones.
+2.Compatibility:
+-        Cross-Browser Compatibility: CSS ensures consistency in styling across different web browsers, ensuring compatibility with various browser platforms and versions. By following CSS standards and best practices, developers can create stylesheets that render consistently across browsers, minimizing compatibility issues.
+-        Vendor Prefixes: CSS vendor prefixes (e.g., -webkit-, -moz-, -ms-, -o-) are used to add experimental or browser-specific CSS properties to ensure compatibility with different browser engines. While the need for vendor prefixes has decreased with better browser support for CSS features, they are still used in certain cases to maintain compatibility with older browser versions.
+-        Progressive Enhancement: CSS supports progressive enhancement, an approach to web development that focuses on providing a basic user experience for all users while progressively enhancing it for users with modern browsers and devices. By using CSS feature detection and graceful degradation techniques, developers can ensure compatibility with a wide range of browsers and devices without sacrificing design or functionality.
+-        Accessibility: CSS plays a role in creating accessible web designs by allowing developers to control visual presentation and enhance readability. By using appropriate contrast ratios, font sizes, and spacing, developers can improve readability and ensure compatibility with assistive technologies for users with disabilities.
+## Javascript
+1.Scalability:
+-        Client-Side: JavaScript enables the development of interactive and responsive user interfaces, facilitating a smooth user experience even as the complexity of the application grows.
+-        Server-Side: With the introduction of server-side JavaScript frameworks like Node.js, JavaScript can handle both client-side and server-side development. This allows for the creation of scalable, real-time, and high-performance web applications where JavaScript code can be shared between the client and server, reducing duplication and enhancing maintainability.
+-        Scalable Architecture: JavaScript supports scalable architectural patterns like microservices and event-driven architectures. Frameworks like Express.js for Node.js provide lightweight and flexible solutions for building scalable server-side applications, allowing for the modularization of code and easy scaling of individual components as needed.
+2.Compatibility:
+-        Cross-Browser Compatibility: JavaScript is supported by all modern web browsers, ensuring compatibility across different platforms and devices. JavaScript frameworks like jQuery, React.js, and Vue.js abstract away browser inconsistencies, allowing developers to write code that works consistently across browsers.
+-        Compatibility with Web Standards: JavaScript adheres to web standards defined by organizations like the W3C (World Wide Web Consortium). This ensures that JavaScript code follows best practices and is compatible with evolving web technologies, ensuring long-term compatibility and interoperability with other web technologies.
+-        Integration with Backend Technologies: APIs (Application Programming Interfaces) built with JavaScript (e.g., RESTful APIs) allow for communication between frontend and backend systems, promoting compatibility and consistency in data exchange.]
 
 
 ## d. User Interface Design:
