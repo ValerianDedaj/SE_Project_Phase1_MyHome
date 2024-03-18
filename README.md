@@ -90,7 +90,7 @@ User feedback used for bug fixes, usability improvements, feature enhancements]
  ##  Phase II: User Requirements and Application Specifications
  
 -** 1. Chosen Development Model: **
-[·       Development Model: Agile
+·       Development Model: Agile
 ·       Justification:
 -Continuous Iteration Based on Feedback:
 In the initial stages of website development, the company may have a basic understanding of the features they want. Agile allows them to quickly develop a Minimum Viable Product (MVP) and gather feedback from both freelancers and clients.
@@ -102,13 +102,13 @@ For instance, if there's a sudden increase in demand for a specific type of serv
 Agile promotes collaboration among stakeholders, including freelancers, clients, and developers. Regular feedback sessions and sprint reviews ensure that everyone's input is considered throughout the development process.
 Freelancers might provide valuable insights into the user experience from their perspective, while clients can offer feedback on features that would improve their hiring experience. Agile ceremonies like sprint planning and retrospectives facilitate these discussions.
 Quick Deployment of New Features:
-With Agile, the company can deliver new features and updates to the platform in short iterations. This allows them to respond quickly to user feedback and market demands, maintaining a competitive edge in the freelance marketplace.]
+With Agile, the company can deliver new features and updates to the platform in short iterations. This allows them to respond quickly to user feedback and market demands, maintaining a competitive edge in the freelance marketplace.
  
  
  
  
 ## 2. User Requirements:
-[a. Stakeholders:
+a. Stakeholders:
 Identify key stakeholders, including end-users, clients, developers, and any other relevant parties. Provide a brief discussion on their roles and interests in the project.
 Stakeholders:
 Freelancers:
@@ -124,7 +124,7 @@ Customer support representatives assist users with any issues or questions they 
 Investors/Shareholders:
 Investors or shareholders have a financial stake in the success of the freelancing website. They are interested in the platform's growth, profitability, and ability to attract users and clients. Their support may be essential for funding development efforts, marketing initiatives, and expansion plans.
 Marketing/Sales Team:
-The marketing and sales team is responsible for attracting users and clients to the freelancing website. They develop marketing strategies, run advertising campaigns, and engage with potential users through various channels. Their efforts contribute to user acquisition, retention, and revenue generation.]
+The marketing and sales team is responsible for attracting users and clients to the freelancing website. They develop marketing strategies, run advertising campaigns, and engage with potential users through various channels. Their efforts contribute to user acquisition, retention, and revenue generation.
  
 ## b. User Stories:
 [Present a few detailed user stories: Include the user type (e.g., administrator, end-user). Clearly outline the corresponding requirement and the benefit it brings to the user or project.
@@ -170,7 +170,7 @@ I utilize background screening tools and services to perform comprehensive backg
 I establish a feedback mechanism where users can report security incidents, raise concerns, or provide suggestions for improving platform security. Reported security issues are promptly investigated and resolved.]
  
 ## 3. Functional Requirements:
-[a. Brief Description:
+a. Brief Description:
 ·       User Registration and Authentication:
 Allows users to create accounts on the platform by providing necessary information such as username, email address, password, etc.
 Provides authentication mechanisms to verify user identities during login, ensuring secure access to user accounts.
@@ -193,7 +193,7 @@ Profile sections have validation checks for required fields.
 ·       Security and Privacy Measures:
 Users can enable multi-factor authentication (MFA) for their accounts.
 Security audit logs track all user activities.
-Personal data handling practices comply with relevant regulations.]
+Personal data handling practices comply with relevant regulations.
  
 ## 4. Non-Functional Requirements:
 [a. Brief Description:
