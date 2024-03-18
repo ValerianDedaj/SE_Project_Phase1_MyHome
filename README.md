@@ -87,3 +87,83 @@ Database integration]
 3. [Griselda Rexhmati] - [Data modeling and schema design to ensure efficient data storage
 Backend & frontend development
 User feedback used for bug fixes, usability improvements, feature enhancements]
+##  Phase II: User Requirements and Application Specifications
+ 
+## 1. Chosen Development Model:
+State the chosen development model, such as Agile, Waterfall, or Scrum.
+·       Development Model: Agile
+## ·       Justification:
+1.Continuous Iteration Based on Feedback:
+-In the initial stages of website development, the company may have a basic understanding of the features they want. Agile allows them to quickly develop a Minimum Viable Product (MVP) and gather feedback from both freelancers and clients.
+-For example, they might start with basic user registration and job posting functionalities. As they receive feedback from users, they can iterate and enhance the platform with features like advanced search filters, messaging systems, and portfolio showcases based on user needs and preferences.
+2.Adaptability to Changing Market Trends:
+-The freelance industry is dynamic, with trends and requirements evolving rapidly. Agile methodology enables the company to respond quickly to these changes.
+-For instance, if there's a sudden increase in demand for a specific type of service, the company can prioritize the development of features or categories related to that service, ensuring they stay competitive and meet market demands.
+3.Collaboration with Stakeholders:
+-Agile promotes collaboration among stakeholders, including freelancers, clients, and developers. Regular feedback sessions and sprint reviews ensure that everyone's input is considered throughout the development process.
+-Freelancers might provide valuable insights into the user experience from their perspective, while clients can offer feedback on features that would improve their hiring experience. Agile ceremonies like sprint planning and retrospectives facilitate these discussions.
+4.Quick Deployment of New Features:
+-With Agile, the company can deliver new features and updates to the platform in short iterations. This allows them to respond quickly to user feedback and market demands, maintaining a competitive edge in the freelance marketplace.
+## 2. User Requirements:
+## a. Stakeholders:
+1.Freelancers:
+-These are the individuals who offer their services through the platform. They have a vested interest in the usability, fairness, and reliability of the website. Their satisfaction is crucial for the platform's success, as they provide the services that attract clients.
+2.Clients:
+-Clients are the individuals or businesses seeking services from freelancers. They are interested in finding qualified and reliable freelancers, managing their requirements efficiently, and ensuring satisfactory results. Their experience with the website impacts their likelihood of returning for future projects.
+3.Project Managers/Administrators:
+-Project managers or administrators are responsible for overseeing the operations of the freelancing website. They manage user accounts, handle disputes, ensure compliance with platform policies, and may also be involved in marketing and business development efforts. Their goal is to maintain the integrity and functionality of the platform.
+4.Developers/Technical Team:
+-Developers and technical teams are responsible for building, maintaining, and updating the website. They work to ensure that the platform is user-friendly, secure, and scalable. Their input is crucial for implementing new features, fixing bugs, and optimizing performance.
+5.Customer Support:
+-Customer support representatives assist users with any issues or questions they may have while using the platform. They play a key role in resolving disputes, providing guidance on using the website's features, and addressing technical issues. Their responsiveness and effectiveness contribute to user satisfaction and retention.
+6.Investors/Shareholders:
+-Investors or shareholders have a financial stake in the success of the freelancing website. They are interested in the platform's growth, profitability, and ability to attract users and clients. Their support may be essential for funding development efforts, marketing initiatives, and expansion plans.
+7.Marketing/Sales Team:
+-The marketing and sales team is responsible for attracting users and clients to the freelancing website. They develop marketing strategies, run advertising campaigns, and engage with potential users through various channels. Their efforts contribute to user acquisition, retention, and revenue generation.
+ 
+## b. User Stories:
+-User Story for a Freelancer:
+-Title: Submit Proposal for a Project
+-As a Freelancer, I want to be able to submit a proposal for a project posted by a client, so that I can showcase my skills and expertise and potentially win the project.
+## Acceptance Criteria:
+1.       Project Discovery:
+-I can browse through available jobs listed on the platform and filter them based on criteria such as category, budget, and skills required.
+2.       Proposal Submission:
+-For jobs that match my skills and interests, I can submit a proposal detailing my qualifications to the job, relevant experience, and any additional information requested by the client.
+3.       Attachments:
+-I can attach relevant files or portfolio samples to support my proposal and demonstrate my capabilities to the client.
+4.       Communication:
+-After submitting a proposal, I can engage in further communication with the client through messaging to clarify any doubts or discuss project details.
+5.       Notification:
+-If the client responds to my proposal or takes any action related to the project, I receive a notification to stay updated on the progress.
+## User Story for a Client:
+-Title: Review Freelancer Proposals and Hire
+-As a Client, I want to be able to review proposals submitted by freelancers for my project, so that I can assess their suitability and hire the most qualified candidate.
+## Acceptance Criteria:
+1.       Proposal Overview:
+-I can view a summary of all proposals received for the job I offered.
+2.       Detailed Proposal View:
+-I can click on individual proposals to view detailed information, including the freelancer's profile, proposal message, and attached portfolio samples or relevant files.
+3.       Communication Options:
+-From within the proposal view, I have the option to communicate with the freelancer via messaging to ask questions or seek clarification on their proposal.
+4.       Hiring Decision:
+-After reviewing all proposals and conducting any necessary discussions with freelancers, I can select and hire the most suitable candidate for the project.
+5.       Notification:
+-Once I hire a freelancer, both the freelancer and I receive a notification confirming the hiring decision and providing details about the next steps in the project collaboration.
+## User Story for admin:
+-Title: Review Freelancer Profiles and Ensure Platform Security
+-As an Administrator, I want to be able to review freelancer profiles and ensure platform security, so that I can maintain a high standard of quality, trust, and safety for all users.
+## Acceptance Criteria:
+1.       Profile Verification:
+-I have access to a verification system where I can review and verify freelancer profiles for authenticity, accuracy, and compliance with platform policies. Verification checks may include validating identity documents, verifying professional credentials, and confirming previous work experience.
+2.       Security Checks:
+-I conduct thorough security checks on freelancer profiles to identify any red flags or suspicious activities, such as fraudulent behavior, spamming, or violations of platform terms of service. Suspicious profiles are flagged for further investigation and potential enforcement actions, such as temporary suspension or permanent banning from the platform.
+3.       Background Screening:
+-I utilize background screening tools and services to perform comprehensive background checks on freelancers, including criminal record checks, employment history verification, and reference checks.
+4.       Feedback Mechanism:
+-I establish a feedback mechanism where users can report security incidents, raise concerns, or provide suggestions for improving platform security. Reported security issues are promptly investigated and resolved.
+ 
+## 3. Functional Requirements:
+
+
+   
