@@ -1,4 +1,4 @@
-- [Demo Project](http://localhost/myhomealbania/myhomealbania/index.php/)
+- [Demo Project](http://localhost/myhomealbania/myhomealbania/index.php)
 # SE_Project_Phase1_MyHome
 ## Team Name: MyHome
 
