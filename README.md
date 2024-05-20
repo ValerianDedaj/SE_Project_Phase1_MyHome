@@ -88,3 +88,5 @@ Database integration]
 3. [Griselda Rexhmati] - [Data modeling and schema design to ensure efficient data storage
 Backend & frontend development
 User feedback used for bug fixes, usability improvements, feature enhancements]
+
+<img width="929" alt="commit1" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/c98c5d0e-dfb6-4efe-b97c-58d24236e5b5">
