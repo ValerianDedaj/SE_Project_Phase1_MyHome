@@ -88,6 +88,15 @@ Database integration]
 3. [Griselda Rexhmati] - [Data modeling and schema design to ensure efficient data storage
 Backend & frontend development
 User feedback used for bug fixes, usability improvements, feature enhancements]
+## Final Phase:
+## Aim:
+[The aim of the project is to provide users with a convenient and comprehensive home maintenance solution to effectively manage their properties and enhance homeownership experiences. .]
+## Main Objectives:
+1. [ 1. Develop a user-friendly and intuitive  web application interface.]
+2. [Implement essential features for finding the right person for the right job ]
+3. [ Offer customization and personalisation options to allow users to tailor the application according to their specific home maintenance needs, preferences and priorities.]
+4.[ Ensure cross-platform compatibility and scalability to accommodate future enhancements and user growth]
+5.[ Implement a feedback and rating system to gather user ratings and reviews about the service providers and contractors. ]
 ## Commit History:
 <img width="929" alt="commit1" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/c98c5d0e-dfb6-4efe-b97c-58d24236e5b5">
 
