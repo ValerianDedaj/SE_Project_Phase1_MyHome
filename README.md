@@ -88,5 +88,19 @@ Database integration]
 3. [Griselda Rexhmati] - [Data modeling and schema design to ensure efficient data storage
 Backend & frontend development
 User feedback used for bug fixes, usability improvements, feature enhancements]
-
+## Commit History:
 <img width="929" alt="commit1" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/c98c5d0e-dfb6-4efe-b97c-58d24236e5b5">
+
+<img width="937" alt="commit2" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/3f211c0f-ecdf-45cb-a953-3a84389f2ee4">
+
+<img width="726" alt="commit3" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/5785ee3d-3f80-4400-b1f6-3a72a1d86eb6">
+
+<img width="667" alt="commit4" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/51b4448e-b64b-4016-9dc4-86e529f60451">
+
+<img width="665" alt="commit5" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/df2bad04-b567-4232-b427-d6c97099de3e">
+
+<img width="709" alt="commit6" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/cb5248e2-4cfb-42a9-bfbb-fd4a48bf4a3c">
+
+<img width="684" alt="commit7" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/f18863d5-0ee1-4230-919e-c790cc9e276e">
+
+<img width="688" alt="commit8" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/c93cf949-2c2a-440d-9338-78c8d59a6bde">
