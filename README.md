@@ -99,6 +99,10 @@ The aim of the project is to provide users with a convenient and comprehensive h
 5. Implement a feedback and rating system to gather user ratings and reviews about the service providers and contractors. 
 
 ## Website:
+
+## Application Description:
+"My Home" is a comprehensive home maintenance application designed to streamline household management tasks for homeowners and renters alike. With its intuitive interface and robust features, "My Home" empowers users to efficiently organize, track, and manage various aspects of home maintenance, ensuring a well-maintained and comfortable living environment.
+
 <img width="954" alt="myh1" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/76b4f289-5d77-4b38-8747-b99964fa968d">
 
 <img width="959" alt="myh2" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/f41931df-d722-446d-a4a8-3571709d322f">
