@@ -90,7 +90,7 @@ Backend & frontend development
 User feedback used for bug fixes, usability improvements, feature enhancements]
 ## Final Phase:
 ## Aim:
-[The aim of the project is to provide users with a convenient and comprehensive home maintenance solution to effectively manage their properties and enhance homeownership experiences. .]
+The aim of the project is to provide users with a convenient and comprehensive home maintenance solution to effectively manage their properties and enhance homeownership experiences. 
 ## Main Objectives:
 1. [ 1. Develop a user-friendly and intuitive  web application interface.]
 2. [Implement essential features for finding the right person for the right job ]
