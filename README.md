@@ -97,6 +97,24 @@ The aim of the project is to provide users with a convenient and comprehensive h
 3.  Offer customization and personalisation options to allow users to tailor the application according to their specific home maintenance needs, preferences and priorities.
 4. Ensure cross-platform compatibility and scalability to accommodate future enhancements and user growth.
 5. Implement a feedback and rating system to gather user ratings and reviews about the service providers and contractors. 
+
+## Website:
+<img width="954" alt="myh1" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/76b4f289-5d77-4b38-8747-b99964fa968d">
+
+<img width="959" alt="myh2" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/f41931df-d722-446d-a4a8-3571709d322f">
+
+<img width="952" alt="myh3" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/dd8f96c0-8376-409c-8f46-7887985e7bd6">
+
+<img width="959" alt="myh4" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/78c1de54-b786-4da9-9f3c-a1865a3b7dd7">
+
+<img width="956" alt="adminPage" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/296b2aed-1a37-43e1-81f3-dcdfcb0fc1a0">
+
+<img width="959" alt="adminLogIn" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/4236803e-f3f6-40ec-a892-5aa8bb88fd93">
+
+<img width="956" alt="db1" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/9e89b568-5bf9-4fee-8862-a8ad1de5851d">
+
+<img width="955" alt="db2" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/c603776a-3b5a-48ae-bee5-c8e343708085">
+
 ## Commit History:
 <img width="929" alt="commit1" src="https://github.com/ValerianDedaj/SE_Project_Phase1_MyHome/assets/160594622/c98c5d0e-dfb6-4efe-b97c-58d24236e5b5">
 
